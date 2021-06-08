@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-04 11:07:58
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 18:01:20
          compiled from "C:\xampp\htdocs\cs-jp\design\backend\templates\common\mainbox.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:202656041260b98afe037e59-56134893%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:97200401860bf31e0adb6d9-27905944%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '202656041260b98afe037e59-56134893',
+  'nocache_hash' => '97200401860bf31e0adb6d9-27905944',
   'function' => 
   array (
   ),
@@ -53,9 +53,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60b98afe13f593_47897596',
+  'unifunc' => 'content_60bf31e0b206b9_01651563',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60b98afe13f593_47897596')) {function content_60b98afe13f593_47897596($_smarty_tpl) {?><?php if (!is_callable('smarty_block_inline_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.inline_script.php';
+<?php if ($_valid && !is_callable('content_60bf31e0b206b9_01651563')) {function content_60bf31e0b206b9_01651563($_smarty_tpl) {?><?php if (!is_callable('smarty_block_inline_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.inline_script.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_block_notes')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.notes.php';
 if (!is_callable('smarty_modifier_sanitize_html')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.sanitize_html.php';
@@ -117,7 +117,7 @@ $_smarty_tpl->tpl_vars['m']->_loop = true;
                             <li class="divider"></li>
                             <?php } else { ?>
                                 <?php ob_start();?><?php echo htmlspecialchars((($tmp = @$_smarty_tpl->tpl_vars['method']->value)===null||$tmp==='' ? "GET" : $tmp), ENT_QUOTES, 'UTF-8');?>
-<?php $_tmp6=ob_get_clean();?><?php if (fn_check_view_permissions($_smarty_tpl->tpl_vars['m']->value['href'],$_tmp6)) {?>
+<?php $_tmp7=ob_get_clean();?><?php if (fn_check_view_permissions($_smarty_tpl->tpl_vars['m']->value['href'],$_tmp7)) {?>
                                     <li class="<?php if ($_smarty_tpl->tpl_vars['m']->value['js']==true) {?>cm-js<?php }
 if ($_smarty_tpl->getVariable('smarty')->value['foreach']['first_level']['last']) {?> last-item<?php }
 if ($_smarty_tpl->tpl_vars['navigation']->value['dynamic']['active_section']==$_smarty_tpl->tpl_vars['s_id']->value) {?> active<?php }?>"><a href="<?php echo htmlspecialchars(fn_url($_smarty_tpl->tpl_vars['m']->value['href']), ENT_QUOTES, 'UTF-8');?>

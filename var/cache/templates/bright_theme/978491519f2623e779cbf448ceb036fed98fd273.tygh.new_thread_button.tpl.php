@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 11:35:39
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:12:23
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\addons\vendor_communication\views\vendor_communication\components\new_thread_button.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:148286885460bed77b279132-05157943%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:29975543460bf5ea7609ea2-34128486%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '148286885460bed77b279132-05157943',
+  'nocache_hash' => '29975543460bf5ea7609ea2-34128486',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60bed77b29ff91_97440396',
+  'unifunc' => 'content_60bf5ea7620816_40174329',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60bed77b29ff91_97440396')) {function content_60bed77b29ff91_97440396($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';
+<?php if ($_valid && !is_callable('content_60bf5ea7620816_40174329')) {function content_60bf5ea7620816_40174329($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_communication.contact_vendor','vendor_communication.contact_vendor','vendor_communication.contact_vendor','vendor_communication.contact_vendor','vendor_communication.contact_vendor','vendor_communication.contact_vendor','vendor_communication.contact_vendor','vendor_communication.contact_vendor'));
 ?>

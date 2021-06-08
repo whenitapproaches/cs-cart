@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 11:35:42
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:12:26
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\common\tabsbox.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:200033861860bed77e6d9fc0-29741357%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14966630560bf5eaa7355f6-16886740%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '200033861860bed77e6d9fc0-29741357',
+  'nocache_hash' => '14966630560bf5eaa7355f6-16886740',
   'function' => 
   array (
   ),
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60bed77e71cd87_37973719',
+  'unifunc' => 'content_60bf5eaa762675_41402224',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60bed77e71cd87_37973719')) {function content_60bed77e71cd87_37973719($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_empty_tabs')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.empty_tabs.php';
+<?php if ($_valid && !is_callable('content_60bf5eaa762675_41402224')) {function content_60bf5eaa762675_41402224($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_empty_tabs')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.empty_tabs.php';
 if (!is_callable('smarty_function_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.script.php';
 if (!is_callable('smarty_modifier_in_array')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.in_array.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';

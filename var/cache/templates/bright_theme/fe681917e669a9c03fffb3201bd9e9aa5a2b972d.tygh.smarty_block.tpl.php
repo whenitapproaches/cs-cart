@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 06:02:55
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:12:28
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\blocks\smarty_block.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:38491160860be897fd8e602-54255913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:57885518260bf5eac2ce7f4-81234949%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '38491160860be897fd8e602-54255913',
+  'nocache_hash' => '57885518260bf5eac2ce7f4-81234949',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60be897fd9d242_99707116',
+  'unifunc' => 'content_60bf5eac2e7667_80052565',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60be897fd9d242_99707116')) {function content_60be897fd9d242_99707116($_smarty_tpl) {?><?php if (!is_callable('smarty_function_live_edit')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.live_edit.php';
+<?php if ($_valid && !is_callable('content_60bf5eac2e7667_80052565')) {function content_60bf5eac2e7667_80052565($_smarty_tpl) {?><?php if (!is_callable('smarty_function_live_edit')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.live_edit.php';
 if (!is_callable('smarty_function_eval_string')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.eval_string.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&@constant('AREA')=="C") {

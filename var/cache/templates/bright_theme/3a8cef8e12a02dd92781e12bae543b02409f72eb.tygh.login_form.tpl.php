@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 06:02:45
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 23:58:22
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\views\auth\login_form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:153846635260be8975e5e5a0-04420866%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:99757575360bf858e29f110-93147838%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '153846635260be8975e5e5a0-04420866',
+  'nocache_hash' => '99757575360bf858e29f110-93147838',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60be8975e9ff60_08768827',
+  'unifunc' => 'content_60bf858e2fc6a0_99753112',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60be8975e9ff60_08768827')) {function content_60be8975e9ff60_08768827($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
+<?php if ($_valid && !is_callable('content_60bf858e2fc6a0_99753112')) {function content_60bf858e2fc6a0_99753112($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('returning_customer','email','password','forgot_password_question','register_new_account','remember_me','sign_in','returning_customer','email','password','forgot_password_question','register_new_account','remember_me','sign_in'));

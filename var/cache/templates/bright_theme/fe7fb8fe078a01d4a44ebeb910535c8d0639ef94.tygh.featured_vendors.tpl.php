@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 06:02:48
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:20:58
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\blocks\vendor_list_templates\featured_vendors.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:95916851760be8978d81c53-91763567%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:69324497560bf60aa0b48d4-54600498%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '95916851760be8978d81c53-91763567',
+  'nocache_hash' => '69324497560bf60aa0b48d4-54600498',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60be8978db99d3_27574961',
+  'unifunc' => 'content_60bf60aa115a37_55878737',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60be8978db99d3_27574961')) {function content_60be8978db99d3_27574961($_smarty_tpl) {?><?php if (!is_callable('smarty_function_split')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.split.php';
+<?php if ($_valid && !is_callable('content_60bf60aa115a37_55878737')) {function content_60bf60aa115a37_55878737($_smarty_tpl) {?><?php if (!is_callable('smarty_function_split')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.split.php';
 if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\cs-jp\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';

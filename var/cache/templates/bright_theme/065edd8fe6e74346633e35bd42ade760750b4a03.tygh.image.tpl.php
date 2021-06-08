@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 06:02:46
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 18:01:28
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\common\image.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:169163878960be8976da5684-01242617%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:176990433560bf31e8211fe5-20206402%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '169163878960be8976da5684-01242617',
+  'nocache_hash' => '176990433560bf31e8211fe5-20206402',
   'function' => 
   array (
   ),
@@ -42,9 +42,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60be8976e01bf2_85979991',
+  'unifunc' => 'content_60bf31e825b203_13038673',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60be8976e01bf2_85979991')) {function content_60be8976e01bf2_85979991($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\cs-jp\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php';
+<?php if ($_valid && !is_callable('content_60bf31e825b203_13038673')) {function content_60bf31e825b203_13038673($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\cs-jp\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_modifier_render_tag_attrs')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.render_tag_attrs.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';

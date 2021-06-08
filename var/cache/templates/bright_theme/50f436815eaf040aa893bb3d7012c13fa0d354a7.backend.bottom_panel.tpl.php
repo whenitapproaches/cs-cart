@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 11:35:32
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 18:01:26
          compiled from "C:\xampp\htdocs\cs-jp\design\backend\templates\components\bottom_panel\bottom_panel.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12546291760bed774c6d397-36514946%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:43350236060bf31e6eadf36-12676587%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'backend',
     ),
   ),
-  'nocache_hash' => '12546291760bed774c6d397-36514946',
+  'nocache_hash' => '43350236060bf31e6eadf36-12676587',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60bed774ebec93_36164674',
+  'unifunc' => 'content_60bf31e703c915_95595945',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60bed774ebec93_36164674')) {function content_60bed774ebec93_36164674($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.styles.php';
+<?php if ($_valid && !is_callable('content_60bf31e703c915_95595945')) {function content_60bf31e703c915_95595945($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.styles.php';
 if (!is_callable('smarty_function_style')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.style.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\cs-jp\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php';
@@ -167,17 +167,17 @@ echo htmlspecialchars(fn_url('',"A"), ENT_QUOTES, 'UTF-8');
                     <?php if ($_smarty_tpl->tpl_vars['active_mode']->value==="text") {?>
                         href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_tmp1=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=live_editor&return_url=".$_tmp1), ENT_QUOTES, 'UTF-8');?>
+$_tmp2=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=live_editor&return_url=".$_tmp2), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php } elseif ($_smarty_tpl->tpl_vars['active_mode']->value==="theme") {?>
                         href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_tmp2=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=theme_editor&return_url=".$_tmp2), ENT_QUOTES, 'UTF-8');?>
+$_tmp3=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=theme_editor&return_url=".$_tmp3), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php } elseif ($_smarty_tpl->tpl_vars['active_mode']->value==="build") {?>
                         href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_tmp3=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=block_manager&return_url=".$_tmp3), ENT_QUOTES, 'UTF-8');?>
+$_tmp4=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=block_manager&return_url=".$_tmp4), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php } else { ?>
                         href="<?php echo htmlspecialchars(fn_url(''), ENT_QUOTES, 'UTF-8');?>
@@ -194,7 +194,7 @@ $_tmp3=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disabl
                 <?php if (fn_check_permissions("customization","update_mode","admin",'',array("type"=>"live_editor"),@constant('AREA'),$_smarty_tpl->tpl_vars['auth']->value['user_id'])) {?>
                     <a href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_tmp4=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=live_editor&status=enable&return_url=".$_tmp4), ENT_QUOTES, 'UTF-8');?>
+$_tmp5=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=live_editor&status=enable&return_url=".$_tmp5), ENT_QUOTES, 'UTF-8');?>
 "
                         id="settings_live_editor"
                         class="cm-no-ajax bp-modes__item bp-modes__item--text
@@ -210,7 +210,7 @@ $_tmp4=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update
                 <?php if (fn_check_permissions("customization","update_mode","admin",'',array("type"=>"theme_editor"),@constant('AREA'),$_smarty_tpl->tpl_vars['auth']->value['user_id'])) {?>
                     <a href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_tmp5=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=theme_editor&status=enable&return_url=".$_tmp5), ENT_QUOTES, 'UTF-8');?>
+$_tmp6=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=theme_editor&status=enable&return_url=".$_tmp6), ENT_QUOTES, 'UTF-8');?>
 "
                         id="settings_theme_editor"
                         class="cm-no-ajax bp-modes__item bp-modes__item--theme
@@ -227,7 +227,7 @@ $_tmp5=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update
                     <a href="<?php if ($_smarty_tpl->tpl_vars['page']->value==="checkout") {
 ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_tmp6=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=block_manager&status=enable&return_url=".$_tmp6), ENT_QUOTES, 'UTF-8');
+$_tmp7=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=block_manager&status=enable&return_url=".$_tmp7), ENT_QUOTES, 'UTF-8');
 } else { ?>#<?php }?>"
                        id="settings_block_manager"
                        class="cm-no-ajax bp-modes__item bp-modes__item--build
@@ -565,17 +565,17 @@ echo htmlspecialchars(fn_url('',"A"), ENT_QUOTES, 'UTF-8');
                     <?php if ($_smarty_tpl->tpl_vars['active_mode']->value==="text") {?>
                         href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_tmp7=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=live_editor&return_url=".$_tmp7), ENT_QUOTES, 'UTF-8');?>
+$_tmp8=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=live_editor&return_url=".$_tmp8), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php } elseif ($_smarty_tpl->tpl_vars['active_mode']->value==="theme") {?>
                         href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_tmp8=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=theme_editor&return_url=".$_tmp8), ENT_QUOTES, 'UTF-8');?>
+$_tmp9=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=theme_editor&return_url=".$_tmp9), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php } elseif ($_smarty_tpl->tpl_vars['active_mode']->value==="build") {?>
                         href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_tmp9=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=block_manager&return_url=".$_tmp9), ENT_QUOTES, 'UTF-8');?>
+$_tmp10=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disable_mode?type=block_manager&return_url=".$_tmp10), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php } else { ?>
                         href="<?php echo htmlspecialchars(fn_url(''), ENT_QUOTES, 'UTF-8');?>
@@ -592,7 +592,7 @@ $_tmp9=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.disabl
                 <?php if (fn_check_permissions("customization","update_mode","admin",'',array("type"=>"live_editor"),@constant('AREA'),$_smarty_tpl->tpl_vars['auth']->value['user_id'])) {?>
                     <a href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_tmp10=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=live_editor&status=enable&return_url=".$_tmp10), ENT_QUOTES, 'UTF-8');?>
+$_tmp11=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=live_editor&status=enable&return_url=".$_tmp11), ENT_QUOTES, 'UTF-8');?>
 "
                         id="settings_live_editor"
                         class="cm-no-ajax bp-modes__item bp-modes__item--text
@@ -608,7 +608,7 @@ $_tmp10=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.updat
                 <?php if (fn_check_permissions("customization","update_mode","admin",'',array("type"=>"theme_editor"),@constant('AREA'),$_smarty_tpl->tpl_vars['auth']->value['user_id'])) {?>
                     <a href="<?php ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_tmp11=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=theme_editor&status=enable&return_url=".$_tmp11), ENT_QUOTES, 'UTF-8');?>
+$_tmp12=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=theme_editor&status=enable&return_url=".$_tmp12), ENT_QUOTES, 'UTF-8');?>
 "
                         id="settings_theme_editor"
                         class="cm-no-ajax bp-modes__item bp-modes__item--theme
@@ -625,7 +625,7 @@ $_tmp11=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.updat
                     <a href="<?php if ($_smarty_tpl->tpl_vars['page']->value==="checkout") {
 ob_start();
 echo htmlspecialchars(urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_tmp12=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=block_manager&status=enable&return_url=".$_tmp12), ENT_QUOTES, 'UTF-8');
+$_tmp13=ob_get_clean();?><?php echo htmlspecialchars(fn_url("customization.update_mode?type=block_manager&status=enable&return_url=".$_tmp13), ENT_QUOTES, 'UTF-8');
 } else { ?>#<?php }?>"
                        id="settings_block_manager"
                        class="cm-no-ajax bp-modes__item bp-modes__item--build

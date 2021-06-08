@@ -1,1 +1,1 @@
-a:2:{s:4:"data";a:1:{s:2:"en";a:2:{s:11:"all_vendors";s:11:"All vendors";s:5:"email";s:6:"E-mail";}}s:6:"expiry";i:0;}
+a:2:{s:4:"data";a:1:{s:2:"en";a:10:{s:11:"all_vendors";s:11:"All vendors";s:5:"email";s:6:"E-mail";s:4:"none";s:4:"None";s:4:"date";s:4:"Date";s:7:"default";s:7:"Default";s:4:"name";s:4:"Name";s:5:"price";s:5:"Price";s:10:"popularity";s:10:"Popularity";s:11:"bestselling";s:11:"Bestselling";s:7:"on_sale";s:7:"On sale";}}s:6:"expiry";i:0;}

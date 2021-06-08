@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 06:02:53
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:12:26
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\blocks\list_templates\grid_list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:193864576860be897d498629-72149104%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:172379727860bf5eaa9f3847-69924539%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '193864576860be897d498629-72149104',
+  'nocache_hash' => '172379727860bf5eaa9f3847-69924539',
   'function' => 
   array (
   ),
@@ -51,9 +51,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60be897d51b263_67474156',
+  'unifunc' => 'content_60bf5eaaa67f13_54530363',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60be897d51b263_67474156')) {function content_60be897d51b263_67474156($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.script.php';
+<?php if ($_valid && !is_callable('content_60bf5eaaa67f13_54530363')) {function content_60bf5eaaa67f13_54530363($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.script.php';
 if (!is_callable('smarty_function_split')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.split.php';
 if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\cs-jp\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';

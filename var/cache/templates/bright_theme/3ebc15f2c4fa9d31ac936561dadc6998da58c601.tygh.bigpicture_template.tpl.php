@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 11:35:36
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:12:17
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\blocks\product_templates\bigpicture_template.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:158145926860bed778f192d0-32806586%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:60836408260bf5ea1ef74a6-43026469%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '158145926860bed778f192d0-32806586',
+  'nocache_hash' => '60836408260bf5ea1ef74a6-43026469',
   'function' => 
   array (
   ),
@@ -52,9 +52,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60bed779077839_60937413',
+  'unifunc' => 'content_60bf5ea204bb43_36466431',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60bed779077839_60937413')) {function content_60bed779077839_60937413($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.script.php';
+<?php if ($_valid && !is_callable('content_60bf5ea204bb43_36466431')) {function content_60bf5ea204bb43_36466431($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.script.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_function_live_edit')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.live_edit.php';
 if (!is_callable('smarty_modifier_count')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.count.php';

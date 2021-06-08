@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 11:35:37
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 21:12:21
          compiled from "C:\xampp\htdocs\cs-jp\design\themes\responsive\templates\addons\wishlist\hooks\products\buy_now.pre.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:61236366660bed779ea30f5-85989544%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:130014928660bf5ea57ddb83-37052586%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '61236366660bed779ea30f5-85989544',
+  'nocache_hash' => '130014928660bf5ea57ddb83-37052586',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60bed779ebce87_03092868',
+  'unifunc' => 'content_60bf5ea57e9583_57785040',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60bed779ebce87_03092868')) {function content_60bed779ebce87_03092868($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';
+<?php if ($_valid && !is_callable('content_60bf5ea57e9583_57785040')) {function content_60bf5ea57e9583_57785040($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&@constant('AREA')=="C") {
 $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start();
 if (!$_smarty_tpl->tpl_vars['hide_wishlist_button']->value) {?>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 06:05:20
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 18:01:19
          compiled from "C:\xampp\htdocs\cs-jp\design\backend\templates\views\payments\update.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:108676293460be8a10b6fce5-06971584%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:127664233760bf31df40a399-15391952%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '15f459ddf6f9c23ecca16d4bb7d8a04d36d97ea9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\cs-jp\\design\\backend\\templates\\views\\payments\\update.tpl',
-      1 => 1560410082,
+      1 => 1623138316,
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '108676293460be8a10b6fce5-06971584',
+  'nocache_hash' => '127664233760bf31df40a399-15391952',
   'function' => 
   array (
   ),
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60be8a10bd18e8_89594519',
+  'unifunc' => 'content_60bf31df457ac8_86138871',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60be8a10bd18e8_89594519')) {function content_60be8a10bd18e8_89594519($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
+<?php if ($_valid && !is_callable('content_60bf31df457ac8_86138871')) {function content_60bf31df457ac8_86138871($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_modifier_in_array')) include 'C:/xampp/htdocs/cs-jp/app/functions/smarty_plugins\\modifier.in_array.php';
 ?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('general','specific_settings','name','processor','offline','checkout','gateways','tools_addons_additional_payment_methods','template','tt_views_payments_update_template','none','payment_category','payments_tab1','payments_tab2','payments_tab3','payment_category_note','usergroups','description','surcharge','surcharge_title','tt_views_payments_update_surcharge_title','taxes','tt_views_payments_update_taxes','payment_instructions','icon'));

@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Languages::alipay.addon_is_disabled_notice"
+msgid "The <b>Alipay payments</b> add-on is disabled so you can't configure this payment method."
+msgstr "The <b>Alipay payments</b> add-on is disabled so you can't configure this payment method."
+
+msgctxt "Addons::name::alipay"
+msgid "Alipay payments"
+msgstr "Alipay payments"
+
+msgctxt "Languages::name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::payment_method_type"
+msgid "Payment method types"
+msgstr "Payment method types"
