@@ -1,0 +1,1 @@
+INSERT INTO ?:payment_processors (processor, processor_script, processor_template, admin_template, callback, type, addon) VALUES ('Alipay', 'alipay.php', 'addons/alipay/views/orders/components/payments/alipay.tpl', 'alipay.tpl', 'Y', 'P', 'alipay');
