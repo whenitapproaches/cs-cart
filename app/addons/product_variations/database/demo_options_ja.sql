@@ -1,0 +1,2 @@
+REPLACE INTO ?:product_options_descriptions (`option_id`, `lang_code`, `option_name`, `option_text`, `description`, `comment`, `inner_hint`, `incorrect_message`) VALUES (27, 'ja', 'カラー', '', '', '', '', '');
+REPLACE INTO ?:product_options_descriptions (`option_id`, `lang_code`, `option_name`, `option_text`, `description`, `comment`, `inner_hint`, `incorrect_message`) VALUES (28, 'ja', 'サイズ', '', '', '', '', '');

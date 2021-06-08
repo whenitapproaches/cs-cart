@@ -1,0 +1,9 @@
+REPLACE INTO ?:page_descriptions VALUES (7, 'ja', 'ブログ', '', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (8, 'ja', 'ブログ記事その1', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (9, 'ja', 'ブログ記事その2', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (10, 'ja', 'ブログ記事その3', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (33, 'ja', 'ブログ', '', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (34, 'ja', 'ブログ記事その2', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (35, 'ja', 'ブログ記事その3', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (36, 'ja', 'ブログ記事その4', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');
+REPLACE INTO ?:page_descriptions VALUES (37, 'ja', 'ブログ記事その1', '<p>ここにブログ記事が表示されます。</p>', '', '', '', '');

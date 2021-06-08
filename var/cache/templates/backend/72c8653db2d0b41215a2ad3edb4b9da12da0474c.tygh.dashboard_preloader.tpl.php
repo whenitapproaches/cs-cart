@@ -1,0 +1,61 @@
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-04 11:07:57
+         compiled from "C:\xampp\htdocs\cs-jp\design\backend\templates\views\index\components\dashboard_preloader.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:20908893760b98afdf339a7-90930835%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '72c8653db2d0b41215a2ad3edb4b9da12da0474c' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\cs-jp\\design\\backend\\templates\\views\\index\\components\\dashboard_preloader.tpl',
+      1 => 1560233860,
+      2 => 'tygh',
+    ),
+  ),
+  'nocache_hash' => '20908893760b98afdf339a7-90930835',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.21',
+  'unifunc' => 'content_60b98afe001a49_60189052',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_60b98afe001a49_60189052')) {function content_60b98afe001a49_60189052($_smarty_tpl) {?><div class="dashboard-skeleton">
+    <div class="dashboard-skeleton__left-side">
+        <div class="dashboard-skeleton__mockup">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--smaller">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--smaller">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--smaller">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--smaller">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--smaller">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--smaller">
+            <div class="dashboard-skeleton__mockup-title-line"></div>
+        </div>
+    </div>
+    <div class="dashboard-skeleton__right-side">
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--large"></div>
+        <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--large"></div>
+        <div class="dashboard-skeleton">
+            <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--large-half"></div>
+            <div class="dashboard-skeleton__mockup dashboard-skeleton__mockup--large-half"></div>
+        </div>
+    </div>
+</div>
+<?php }} ?>
